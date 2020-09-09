@@ -1,0 +1,17 @@
+.header {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  align-content: center;
+
+  &__menu {
+    color: white;
+    border: 0.02px solid white;
+    border-radius: 3px;
+  }
+
+  &__logo {
+    width: 130px;
+    object-fit: contain;
+  }
+}
